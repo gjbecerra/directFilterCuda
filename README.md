@@ -6,15 +6,15 @@ The repository also contains sample datasets that can be used to test the algori
 
 For compiling the code, type the following on a terminal:
 
-``
-$ make all
-``
+```console
+make all
+```
 
 This will build the `directFilter` executable in the current directory. For executing the algorithm run the following command:
 
-``
-$ ./directFilter data/mXX_NYYYYY.mat result.mat
-``
+```console
+./directFilter data/mXX_NYYYYY.mat result.mat
+```
 
 where `XX` corresponds to the regressor length and `YYYYY` corresponds to the dataset size. The file `result.mat` will contain the Direct Filter estimate. This file can be loaded in Matlab for inspecting and printing the results.
 
